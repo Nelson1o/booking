@@ -1,0 +1,35 @@
+.page {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-6);
+
+  padding: var(--space-8) var(--space-4);
+  text-align: center;
+}
+
+.title {
+  font-size: var(--text-title);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-text);
+}
+
+.bookButton {
+  padding: var(--space-4) var(--space-8);
+
+  background: var(--color-accent);
+  color: #ffffff;
+  border-radius: var(--radius);
+
+  font-size: var(--text-body);
+  font-weight: 500;
+
+  transition: background var(--transition);
+
+  &:hover {
+    background: var(--color-accent-hover);
+  }
+}
